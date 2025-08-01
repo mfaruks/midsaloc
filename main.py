@@ -44,7 +44,7 @@ for i in range(223):
 
 
 
-    y_enlem, y_boylam, y_irtifa = predict(enlem, boylam, irtifa, dikilme, yonelme, yatis, 10, zaman=0.5)
+    y_enlem, y_boylam, y_irtifa = predict(enlem, boylam, irtifa, dikilme, yonelme, yatis, 10, zaman=0.75)
     #print("gerçek enlem:",arr[index+1][4],"gerçek boylam:",arr[index+1][5],"gerçek irtifa:",arr[index+1][3] )
     #print("tahmin enlem:",y_enlem,"tahmin boylam:",y_boylam,"tahmin irtifa:",irtifa)
     try:
